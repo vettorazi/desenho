@@ -8,7 +8,8 @@
     "url": "https://github.com/vettorazi/desenho"
   },
   "engines":{
-    "node": "4.1.1"
+    "node": "4.1.1",
+    "npm": "2.14.4"
   },
    "dependencies" : {
       "express": "4.x",
