@@ -1,7 +1,15 @@
 {
-   "name": "MiniDoodle",
-   "description": "Collaborative drawing canvas",
-   "author": "Code-and.Coffee",
+   "name": "doodle",
+   "version":"0.1",
+   "description": "quadro de pintura colaborativo via node.js",
+   "author": "vettorazi",
+   "repository": {
+    "type": "git",
+    "url": "https://github.com/vettorazi/desenho"
+  },
+  "engines":{
+    "node": "4.1.1"
+  },
    "dependencies" : {
       "express": "4.x",
       "socket.io": "*"
