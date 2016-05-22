@@ -28,6 +28,11 @@ document.addEventListener("DOMContentLoaded", function() {
       mouse.move = true;
    };
 
+   canvas.ontouchstart = function(e) {
+  if (e.touches) e = e.touches[0];
+  return false;
+}
+
    // draw line received from server
 	socket.on('draw_line', function (data) {
       var line = data.line;
